@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <script src="js.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="head">Mausam Ka Haal</h1>
+    <div id="main">
+        <input type="search" name="" id="search" placeholder="Location">
+        <button id="submit" type="submit" onclick="getweather(search.value)">Search</button>
+    </div>
+
+    <div id="all">
+    <div id="temp1">
+        <img id="imglogo" src="https://img.freepik.com/free-icon/clouded_318-368363.jpg" alt="">
+        <h2>Temperature : <span id="temp"></span></h2>
+        <!-- <h2>Max Temperature   <span id="max_temp"></span></h2>
+        <h2>Min Temperature   <span id="min_temp"></span></h2> -->
+    </div>
+
+    <div id="humidity1">
+        <img id="humiditylogo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSp3E7GqpNQDZOwNFp_i2IXt4kVykS31Nz2-A&usqp=CAU" alt="">
+        <h2>Humidity : <span id="humidity"></span></h2>
+    </div>
+    
+    <div id="wind">
+    <img id="windlogo" src="https://t3.ftcdn.net/jpg/05/09/78/80/360_F_509788034_y1IYLb2ZnXA3j2fHs2xtD7MErOQ2iAao.jpg" alt="">
+    <h2>Wind Speed : <span id="wind_speed"></span></h2>
+    </div>
+</div>
+</body>
+</html>
